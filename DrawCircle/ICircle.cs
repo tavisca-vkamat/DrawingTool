@@ -2,7 +2,7 @@
 
 namespace DrawCircle
 {
-    public interface ICircle : IPoint
+    public interface ICircle 
     {
         int radius { get; set; }
 

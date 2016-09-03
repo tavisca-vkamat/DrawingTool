@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DrawRectangle
 {
-    public interface IRectangle : IPoint
+    public interface IRectangle 
     {
         /*start point Diagonal*/
         IPoint diagonalStartPoint { get; set; }

@@ -14,29 +14,29 @@ namespace DrawingTool.Tests
         [TestMethod]
         public void TestLineDraw()
         {
-            ILine line = Factory.GetInstanceILine();
-            line = UserInput.GetLineCoordinate("100,100","300,350");
+        //    ILine line = Factory.GetInstanceILine();
+        //    line = UserInput.GetLineCoordinate("100,100","300,350");
 
-            line.DrawLine();
+        //    line.DrawLine();
         }
 
-        [TestMethod]
-        public void TestCircleDraw()
-        {
-            ICircle circle = Factory.GetInstanceICircle();
-            circle = UserInput.GetCircleProperties("100,100","50");
+        //[TestMethod]
+        //public void TestCircleDraw()
+        //{
+        //    ICircle circle = Factory.GetInstanceICircle();
+        //    circle = UserInput.GetCircleProperties("100,100","50");
 
-            circle.DrawCircle();
-        }
+        //    circle.DrawCircle();
+        //}
 
-        [TestMethod]
-        public void TestRectangleDraw()
-        {
-            IRectangle rectangle = Factory.GetInstanceIRectangle();
+        //[TestMethod]
+        //public void TestRectangleDraw()
+        //{
+        //    IRectangle rectangle = Factory.GetInstanceIRectangle();
 
-            rectangle = UserInput.GetRectangleDiagonal("0,0","100,100");
+        //    rectangle = UserInput.GetRectangleDiagonal("0,0","100,100");
 
-            rectangle.DrawRectangle();
-        }
+        //    rectangle.DrawRectangle();
+        //}
     }
 }

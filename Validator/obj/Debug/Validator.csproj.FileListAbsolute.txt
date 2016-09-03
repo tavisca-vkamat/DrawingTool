@@ -1,5 +1,4 @@
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\Validator\bin\Debug\Validator.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\Validator\bin\Debug\Validator.pdb
-c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\Validator\obj\Debug\Validator.csprojResolveAssemblyReference.cache
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\Validator\obj\Debug\Validator.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\Validator\obj\Debug\Validator.pdb
