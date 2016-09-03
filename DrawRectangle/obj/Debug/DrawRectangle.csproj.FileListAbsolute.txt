@@ -1,0 +1,9 @@
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\bin\Debug\DrawRectangle.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\bin\Debug\DrawRectangle.pdb
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\bin\Debug\DrawPoint.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\bin\Debug\DrawPoint.pdb
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\obj\Debug\DrawRectangle.csprojResolveAssemblyReference.cache
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\obj\Debug\DrawRectangle.RectangleForm.resources
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\obj\Debug\DrawRectangle.csproj.GenerateResource.Cache
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\obj\Debug\DrawRectangle.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawRectangle\obj\Debug\DrawRectangle.pdb
