@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace DrawLine
 {
     /* interface for Line */
-    public interface ILine : IPoint
+    public interface ILine
     {
         IPoint startPoint { get; set; }
 

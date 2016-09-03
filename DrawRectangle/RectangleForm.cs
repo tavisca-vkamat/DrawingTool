@@ -22,9 +22,14 @@ namespace DrawRectangle
         public void RectangleForm_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
         {
             Pen blackPen = new Pen(Color.FromArgb(255, 0, 0, 0), 5);
+            int startPointX = (rectangle.diagonalStartPoint.X < rectangle.diagonalEndPoint.X) ? rectangle.diagonalStartPoint.X : rectangle.diagonalEndPoint.X;
+            int startPointY = (rectangle.diagonalStartPoint.Y < rectangle.diagonalEndPoint.Y) ? rectangle.diagonalStartPoint.Y : rectangle.diagonalEndPoint.Y;
+
+            int width = ((rectangle.diagonalStartPoint.X > rectangle.diagonalEndPoint.X) ? rectangle.diagonalStartPoint.X : rectangle.diagonalEndPoint.X)-startPointX;
+            int height = ((rectangle.diagonalStartPoint.Y > rectangle.diagonalEndPoint.Y) ? rectangle.diagonalStartPoint.Y : rectangle.diagonalEndPoint.Y)-startPointY;
 
             //draw rectangle
-            e.Graphics.DrawRectangle(blackPen, rectangle.diagonalStartPoint.X, rectangle.diagonalStartPoint.Y, rectangle.diagonalEndPoint.X, rectangle.diagonalEndPoint.Y);
+            e.Graphics.DrawRectangle(blackPen, startPointX, startPointY, width, height);
         }
     }
 }
