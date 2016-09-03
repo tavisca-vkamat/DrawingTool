@@ -5,6 +5,7 @@ c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bi
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\DrawLine.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\DrawPoint.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\DrawRectangle.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\log4net.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Microsoft.Practices.Unity.dll
@@ -17,6 +18,7 @@ c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bi
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\DrawRectangle.pdb
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\ObjectFactory.pdb
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Validator.pdb
+c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\log4net.xml
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawingTool\bin\Debug\Microsoft.Practices.Unity.xml

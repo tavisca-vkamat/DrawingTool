@@ -3,14 +3,19 @@ using DrawLine;
 using ObjectFactory;
 using DrawRectangle;
 using DrawCircle;
+using log4net;
+using log4net.Config;
 
 namespace DrawingTool
 {
     class DrawingApplication
     {
+        private static readonly ILog logger = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         [STAThread]
         static void Main(string[] args)
         {
+            XmlConfigurator.Configure();
+            logger.Debug("Programm starts ");
             int userChoice;
 
             /* Menu for user */
@@ -19,25 +24,54 @@ namespace DrawingTool
             switch (userChoice)
             {
                 case 1:/* Line drawing */
-                    ILine line = Factory.GetInstanceILine();
-                    //line = UserInput.GetLineCoordinate();
+                    try
+                    {
+                        ILine line = Factory.GetInstanceILine();
+                        line = UserInput.GetLineCoordinate();
 
-                    line.DrawLine();
+                        line.DrawLine();
+                        logger.Info("line draw successful");
+                    }
+                    catch(Exception exception)
+                    {
+                        logger.Error("in line Draw exception: "+exception.ToString());
+                        Console.WriteLine("in line Draw exception: " + exception.ToString());
+                        Console.ReadLine();
+                    }
                     break;
 
                 case 2:/* Circle drawing */
-                    ICircle circle = Factory.GetInstanceICircle();
-                    circle = UserInput.GetCircleProperties();
+                    try
+                    {
+                        ICircle circle = Factory.GetInstanceICircle();
+                        circle = UserInput.GetCircleProperties();
 
-                    circle.DrawCircle();
+                        circle.DrawCircle();
+
+                        logger.Info("line draw successful");
+                    }
+                    catch (Exception exception)
+                    {
+                        logger.Error("in circle Draw exception: " + exception.ToString());
+                    }
+                    
                     break;
 
                 case 3:/* Rectangle drawing */
-                    IRectangle rectangle = Factory.GetInstanceIRectangle();
-                    rectangle = Factory.GetInstanceIRectangle();
-                    rectangle = UserInput.GetRectangleDiagonal();
+                    try
+                    {
+                        IRectangle rectangle = Factory.GetInstanceIRectangle();
+                        
+                        rectangle = UserInput.GetRectangleDiagonal();
 
-                    rectangle.DrawRectangle();
+                        rectangle.DrawRectangle();
+
+                        logger.Info("line draw successful");
+                    }
+                    catch (Exception exception)
+                    {
+                        logger.Error("in rectangle Draw exception: " + exception.ToString());
+                    }
                     break;
 
                 case 4:/* Exit */
@@ -51,3 +85,4 @@ namespace DrawingTool
         }
     }
 }
+

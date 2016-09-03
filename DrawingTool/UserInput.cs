@@ -11,12 +11,15 @@ namespace DrawingTool
 {
     public class UserInput
     {
-        public static ILine GetLineCoordinate(string coOrdinateStart, string coOrdinateEnd)
+        public static ILine GetLineCoordinate()
         {
             ILine line = Factory.GetInstanceILine();
             IPoint startPoint = Factory.GetInstanceIPoint();
 
-            string[] coOrdinateValues = coOrdinateStart.Split(',');
+            /* get input from user start point */
+            Console.Write("Enter co-ordinates x1,y1: ");
+            string coOrdinate = Console.ReadLine();
+            string[] coOrdinateValues = coOrdinate.Split(',');
             if (coOrdinateValues.Count() == 0)
             {
                 line = null;
@@ -41,8 +44,9 @@ namespace DrawingTool
 
                 /* get input from user end point */
                 IPoint endPoint = Factory.GetInstanceIPoint();
-                
-                coOrdinateValues = coOrdinateEnd.Split(',');
+                Console.Write("Enter co-ordinates x2,y2: ");
+                coOrdinate = Console.ReadLine();
+                coOrdinateValues = coOrdinate.Split(',');
 
                 /* parsing check and setting null if parsing fails */
                 parseStorageX = 0; parseStorageY = 0;
@@ -62,7 +66,7 @@ namespace DrawingTool
             }
         }
 
-        internal static ICircle GetCircleProperties()
+        public static ICircle GetCircleProperties()
         {
             ICircle circle = Factory.GetInstanceICircle();
             IPoint center = Factory.GetInstanceIPoint();
@@ -119,7 +123,7 @@ namespace DrawingTool
             }
         }//GetCircleProperties
 
-        internal static IRectangle GetRectangleDiagonal()
+        public static IRectangle GetRectangleDiagonal()
         {
             IRectangle rectangle = Factory.GetInstanceIRectangle();
             IPoint diagonalStart = Factory.GetInstanceIPoint();
