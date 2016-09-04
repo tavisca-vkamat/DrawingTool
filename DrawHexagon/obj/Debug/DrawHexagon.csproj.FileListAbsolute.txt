@@ -1,0 +1,9 @@
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\obj\Debug\DrawHexagon.csprojResolveAssemblyReference.cache
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\obj\Debug\DrawHexagon.HexagonForm.resources
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\obj\Debug\DrawHexagon.csproj.GenerateResource.Cache
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\bin\Debug\DrawHexagon.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\bin\Debug\DrawHexagon.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\bin\Debug\DrawPoint.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\bin\Debug\DrawPoint.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\obj\Debug\DrawHexagon.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawHexagon\obj\Debug\DrawHexagon.pdb

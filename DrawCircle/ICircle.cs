@@ -6,7 +6,7 @@ namespace DrawCircle
     {
         int radius { get; set; }
 
-        IPoint center { get; set; }
+        Point center { get; set; }
 
         void DrawCircle();
     }

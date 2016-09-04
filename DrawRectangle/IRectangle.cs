@@ -10,10 +10,10 @@ namespace DrawRectangle
     public interface IRectangle 
     {
         /*start point Diagonal*/
-        IPoint diagonalStartPoint { get; set; }
+        Point diagonalStartPoint { get; set; }
 
         //end point diagonal
-        IPoint diagonalEndPoint { get; set; }
+        Point diagonalEndPoint { get; set; }
 
         /* method to draw line takes line instance and draws on form */
         void DrawRectangle();
