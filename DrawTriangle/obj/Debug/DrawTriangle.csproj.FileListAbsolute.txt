@@ -1,0 +1,9 @@
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\bin\Debug\DrawTriangle.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\bin\Debug\DrawTriangle.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\bin\Debug\DrawPoint.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\bin\Debug\DrawPoint.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\obj\Debug\DrawTriangle.csprojResolveAssemblyReference.cache
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\obj\Debug\DrawTriangle.TriangleForm.resources
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\obj\Debug\DrawTriangle.csproj.GenerateResource.Cache
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\obj\Debug\DrawTriangle.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawTriangle\obj\Debug\DrawTriangle.pdb

@@ -1,7 +1,9 @@
 ﻿using DrawCircle;
+using DrawHexagon;
 using DrawLine;
 using DrawPoint;
 using DrawRectangle;
+using DrawTriangle;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
@@ -37,12 +39,20 @@ namespace ObjectFactory
             return circle;
         }
 
-        static public IPoint GetInstanceIPoint()
+        public static ITriangle GetInstanceITriangle()
         {
             IUnityContainer container = new UnityContainer();
-            container.RegisterType(typeof(IPoint), typeof(PointOperations));
-            IPoint point = container.Resolve<IPoint>();
-            return point;
+            container.RegisterType(typeof(ITriangle), typeof(TriangleOperations));
+            ITriangle triangle = container.Resolve<ITriangle>();
+            return triangle;
+        }
+
+        public static IHexagon GetInstanceIHexagone()
+        {
+            IUnityContainer container = new UnityContainer();
+            container.RegisterType(typeof(IHexagon), typeof(HexagonOperations));
+            IHexagon triangle = container.Resolve<IHexagon>();
+            return triangle;
         }
     }
 }

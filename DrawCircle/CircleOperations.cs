@@ -8,9 +8,9 @@ using DrawPoint;
 
 namespace DrawCircle
 {
-    public class CircleOperations : PointOperations, ICircle
+    public class CircleOperations : ICircle
     {
-        public IPoint center
+        public Point center
         {
             get;
             set;

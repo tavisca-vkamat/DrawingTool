@@ -1,18 +1,13 @@
 ﻿using DrawPoint;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DrawLine
 {
     /* interface for Line */
-    public interface ILine : IPoint
+    public interface ILine
     {
-        IPoint startPoint { get; set; }
+        Point startPoint { get; set; }
 
-        IPoint endPoint { get; set; }
+        Point endPoint { get; set; }
 
         void DrawLine();
     }

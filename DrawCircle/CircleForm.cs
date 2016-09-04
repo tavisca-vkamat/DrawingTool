@@ -30,7 +30,7 @@ namespace DrawCircle
             Pen blackPen = new Pen(Color.FromArgb(255, 0, 0, 0), 5);
 
             //draw rectangle
-            e.Graphics.DrawEllipse(blackPen, circle.center.X, circle.center.Y - circle.radius, circle.center.X, circle.center.Y + circle.radius);
+            e.Graphics.DrawEllipse(blackPen, circle.center.X - circle.radius, circle.center.Y - circle.radius, (float)(Math.Sqrt(double.Parse("2"))) * circle.radius, (float)(Math.Sqrt(double.Parse("2"))) * circle.radius);
         }
     }
 }

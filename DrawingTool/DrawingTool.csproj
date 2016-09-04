@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\HotelReservationAPI\packages\log4net.2.0.5\lib\net10-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>True</Private>
@@ -77,6 +80,10 @@
       <Project>{6c27b6bf-d641-44b3-bd0b-3d8b92d359f4}</Project>
       <Name>DrawCircle</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DrawHexagon\DrawHexagon.csproj">
+      <Project>{97349c09-7568-4df2-a8d0-3766cc3e17de}</Project>
+      <Name>DrawHexagon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DrawLine\DrawLine.csproj">
       <Project>{b3efc53f-e8ff-44fa-b649-08a54d218af1}</Project>
       <Name>DrawLine</Name>
@@ -88,6 +95,10 @@
     <ProjectReference Include="..\DrawRectangle\DrawRectangle.csproj">
       <Project>{3570184a-4c68-4272-bd0e-db8e2c1b713a}</Project>
       <Name>DrawRectangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrawTriangle\DrawTriangle.csproj">
+      <Project>{90a0ccb3-2fac-4a69-922e-4534374d136f}</Project>
+      <Name>DrawTriangle</Name>
     </ProjectReference>
     <ProjectReference Include="..\ObjectFactory\ObjectFactory.csproj">
       <Project>{a59f963e-8cd9-4b34-b05e-bf49ebe0c9ba}</Project>
