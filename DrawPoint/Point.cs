@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrawPoint
 {
-    public class PointOperations : IPoint
+    public class Point
     {
         public int X
         {

@@ -8,15 +8,15 @@ using DrawPoint;
 
 namespace DrawRectangle
 {
-    public class RectangleOperations : PointOperations, IRectangle
+    public class RectangleOperations : IRectangle
     {
-        public IPoint diagonalEndPoint
+        public Point diagonalEndPoint
         {
             get;
             set;
         }
 
-        public IPoint diagonalStartPoint
+        public Point diagonalStartPoint
         {
             get;
             set;

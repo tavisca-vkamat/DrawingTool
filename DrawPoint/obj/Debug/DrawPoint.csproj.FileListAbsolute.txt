@@ -1,4 +1,4 @@
-c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\bin\Debug\DrawPoint.dll
-c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\bin\Debug\DrawPoint.pdb
-c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\obj\Debug\DrawPoint.dll
-c:\users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\obj\Debug\DrawPoint.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\bin\Debug\DrawPoint.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\bin\Debug\DrawPoint.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\obj\Debug\DrawPoint.dll
+C:\Users\vkamat\documents\visual studio 2015\Projects\DrawingTool\DrawPoint\obj\Debug\DrawPoint.pdb

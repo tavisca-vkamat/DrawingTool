@@ -8,15 +8,15 @@ using System.Windows.Forms;
 
 namespace DrawLine
 {
-    public class LineOperations : PointOperations, ILine
+    public class LineOperations : ILine
     {
-        public IPoint endPoint
+        public Point endPoint
         {
             get;
             set;
         }
 
-        public IPoint startPoint
+        public Point startPoint
         {
             get;
             set;

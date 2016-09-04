@@ -54,6 +54,10 @@
       <Project>{6c27b6bf-d641-44b3-bd0b-3d8b92d359f4}</Project>
       <Name>DrawCircle</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DrawHexagon\DrawHexagon.csproj">
+      <Project>{97349c09-7568-4df2-a8d0-3766cc3e17de}</Project>
+      <Name>DrawHexagon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DrawLine\DrawLine.csproj">
       <Project>{B3EFC53F-E8FF-44FA-B649-08A54D218AF1}</Project>
       <Name>DrawLine</Name>
@@ -66,6 +70,13 @@
       <Project>{3570184a-4c68-4272-bd0e-db8e2c1b713a}</Project>
       <Name>DrawRectangle</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DrawTriangle\DrawTriangle.csproj">
+      <Project>{90a0ccb3-2fac-4a69-922e-4534374d136f}</Project>
+      <Name>DrawTriangle</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
